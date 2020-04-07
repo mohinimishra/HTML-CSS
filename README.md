@@ -13,13 +13,13 @@
 # Attribute 
 
 * Elemets can have attributes.
-* Attributes  are alwase within the openin tags.
-* It give sextra information to the browser about the element , such as where the link goes or location of the image files.
+* Attributes  are alwase within the opening tags.
+* It gives extra information to the browser about the element , such as where the link goes or location of the image files.
 * Atrributes are followed by :
 ``` bash
 <a href= "https://google.com">google </a>
 ```
-* A link will not wordk without href attribute.
+* A link will not work without href attribute.
 * Can link to other pages within the site by simply putting the file name.
 ``` bash
 <a href= "about-us.html">about us </a>

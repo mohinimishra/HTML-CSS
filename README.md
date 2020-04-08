@@ -13,7 +13,7 @@
 # Attribute 
 
 * Elemets can have attributes.
-* Attributes  are alwase within the opening tags.
+* Attributes  are always within the opening tags.
 * It gives extra information to the browser about the element , such as where the link goes or location of the image files.
 * Atrributes are followed by :
 ``` bash

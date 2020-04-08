@@ -32,5 +32,41 @@
 * We can write CSS inside the style attribute 
 ``` bash
 style= "color: blue, font-size: 40px;
+```
+# Lists In HTML
 
+* List are used for all short of things:
+* Regular bullets or numbered lists.
+* Navigations 
+* Organizing other content
+# Two types of list
+# Ordered list 
+ ``` bash  
+ <ol> </ol> 
+ ```
+
+# Unordered list
+``` 
+<ul> </ul>
+```
+* Each bullets or numbered items is a list item 
+``` bash
+<li> </li>
+```
+# example:
+``` bash
+<ol>
+<li> List item  </li>
+<li> list item </li>
+<li> List item </li>
+</ol>
+```
+# Images In HTML
+* Images are like links, they required an attribute to work.
+* Images are diff. from others elements, they are self-closing.
+* Use src attribute which is short of source.
+* Images are not valid without an alt atrribute.Used to describe the image.
+``` bash
+<img src ="image.jpg" alt="">
+```
 

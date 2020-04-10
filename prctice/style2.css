@@ -1,0 +1,18 @@
+/* typed selector */
+h2 {
+    color:red;
+}
+
+/* class selector */
+
+.head {
+    color :blue;
+}
+
+/* id selector */
+
+#myHead {
+    color:yellow;
+}
+
+/* inline css */

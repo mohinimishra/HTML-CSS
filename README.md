@@ -69,4 +69,43 @@ style= "color: blue, font-size: 40px;
 ``` bash
 <img src ="image.jpg" alt="">
 ```
+# Id & Classes
+### The Class selector:
+```bash
+<p class="intro">...</p>
+```
+* In CSS , the class attributes is referenced by using a full stop.
+```bash
+.intro{
+    font-size:20px;
+    color:#2b5dad
+}
+```
+### The ID Selector:
+```bash
+< p id="intro">..</p>
+```
+* An ID is represented by hashtag.
+``` bash
+#intro{
+    font-size:20px;
+    color: 2b5dad;
+}
+``` 
+* ID is indivisual. Can be used on time per page.
+* Class is a group. Can be used over and over again.
+* ID will overwrite teh Class, if they both are selecting the same thing.
 
+# Comments in HML & CSS
+
+### Two diff. ways to write them
+* In HTML 
+```bash
+<!-- comment here -->
+```
+* In CSS
+``` bash
+/* comment here */
+```
+# layouts In HTML:
+* Header

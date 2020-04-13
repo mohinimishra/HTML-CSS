@@ -4,12 +4,17 @@
 
 * ```<strong> </strong>``` It indicates that it is strong importance. Browser makes this text BOLD.
 * ```<em> </em>``` : It has stress emphasis. Browser makes its text in Italic.
-* ```<a> </a>``` This known as a anchor tag. Use to link either to a different loacation within the current page or to another page. 
+* ```<a> </a>``` This known as a anchor tag. Use to link either to a different loacation within the current page or to another page.
+ 
+
 
 ``` bash 
 <a> google </a>
-``` 
-
+```
+* ``` <h1></h1> <h6></h6>``` This is heading tags. 
+* ``` <p> </p>``` Used to write paragraph.
+* ``` <div> </div>``` Short for division.
+* ``` <span> </span>``` A container for small piece of text. Smaller Div.
 # Attribute 
 
 * Elemets can have attributes.
@@ -109,3 +114,10 @@ style= "color: blue, font-size: 40px;
 ```
 # layouts In HTML:
 * Header
+
+# Self-closing tags :
+* Input tag:  It allows user to input their stuff into the Website.
+```bash
+<input >
+```
+

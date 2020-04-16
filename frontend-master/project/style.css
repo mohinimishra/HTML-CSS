@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+.heading {
+    text-align: center;
+    font-size: 60px;
+    font-weight:normal;
+    font-family: "Tangerine", serif;
+    
+}
+
+.container {
+    
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+    border: 3px solid black;
+    border-left: 1px solid black;
+}
+
+.box {
+    border-right: 1px solid black;
+    padding: 0 10px;
+}
+
+.quater {
+    width: 25%;
+}
+
+.half {
+    width: 50%;
+}
+    
+.box  p{
+    text-align: justify;
+    font-size: 16px;
+}
+.box h2 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 30px;
+    font-style: italic;
+}
+.artical-img {
+    width: 100%;
+}
+.list {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+.list-title{
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+.title-section {
+    background-color: grey;
+}
+.title-technology {
+    background-color: lightgoldenrodyellow;
+}
+.title-politics {
+    background-color: grey;
+}
+.title-local {
+    background-color:  lightgoldenrodyellow;
+}
+.title-sports {
+    background-color: grey;
+}
+.list-link {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bolder;
+    padding-left: 20px;
+    font-size: 30px;
+}
+
+.list-link:hover {
+    color: red;
+    background-color: black;
+}

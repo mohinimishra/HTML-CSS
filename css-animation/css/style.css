@@ -1,0 +1,12 @@
+@keyframes example {
+     from {background-color: blue;}    
+     to { background-color: red;}
+
+}
+
+body {
+    background-color: blue;
+    animation-name: example;
+    animation-duration: 4s;
+
+}

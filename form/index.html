@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/hello" method="POST" >
+
+        Name <input type="text" name="FirstName" required value="HELLO" /><br>
+        Email <input type="email" name="email" /><br>
+        Password <input type="password" name="password" /><br>
+        Phone : <input type="number" name="mobile"><br>
+
+        DOB: <input type="date" name="dob"><br>
+        Resume : <input type="file" name="Resume"><br>
+
+        Gender: 
+        Male : <input type="radio" name="gender" value="male">
+        Female: <input type="radio" name="gender" value="female"><br>
+
+        Hobbies: <br>
+
+            <input type="checkbox" name="singing" value="true"> Singing <br>
+            <input type="checkbox" name="coding" value="coding"> Coding <br>
+
+        <select name="state">
+            <option value="KN">Karnataka</option>
+            <option value="TN">TN</option>
+            <option value="UP">UP</option>
+            <option value="MP">MP</option>
+        </select>
+
+
+        <button type="submit">Submit</button>
+
+
+
+    </form>
+</body>
+</html>
+
+<!-- 
+GET
+POST
+PUT
+PATCH
+DELETE
+ -->

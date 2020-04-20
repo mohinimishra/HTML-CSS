@@ -1,0 +1,76 @@
+/* 
+BreakPoint
+1. min-width : 600
+2. minwidth : 900px
+3. 1200px
+*/
+
+
+/* 
+media-type and (media-feature)s
+
+screen      width
+print       height
+handheld    min-width
+tv          min-height
+projector   max-width
+all         max-height
+
+
+
+
+
+*/
+
+
+/* .container {
+    width: 100%;
+    height: 500px;
+    background-color: black;
+}
+
+@media screen and (min-width:600px) and (max-width:800px){
+    .container {
+        background-color: red;
+    }
+}
+
+@media print {
+    .anc {
+        text-decoration: none;
+    }
+} */
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+header {
+    width: 100%;
+}
+
+header h1 {
+    text-align: center;
+    padding: 20px 0px;
+}
+
+
+.container {
+    width: 100%;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+@media screen and (max-width:600px) {
+    .column {
+        width: 100%;
+    }
+}

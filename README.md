@@ -8,7 +8,7 @@
  
 
 
-``` bash 
+``` html 
 <a> google </a>
 ```
 * ``` <h1></h1> <h6></h6>``` This is heading tags. 
@@ -21,12 +21,12 @@
 * Attributes  are always within the opening tags.
 * It gives extra information to the browser about the element , such as where the link goes or location of the image files.
 * Atrributes are followed by :
-``` bash
+``` html
 <a href= "https://google.com">google </a>
 ```
 * A link will not work without href attribute.
 * Can link to other pages within the site by simply putting the file name.
-``` bash
+``` html
 <a href= "about-us.html">about us </a>
 ``` 
 # css
@@ -35,8 +35,8 @@
 * They are always seprated by colon :
 * The value is always followed by semicolon ;
 * We can write CSS inside the style attribute 
-``` bash
-style= "color: blue, font-size: 40px;
+``` html
+<h1 style= "color: blue, font-size: 40px;">Hello</h1>
 ```
 # Lists In HTML
 
@@ -46,7 +46,7 @@ style= "color: blue, font-size: 40px;
 * Organizing other content
 # Two types of list
 # Ordered list 
- ``` bash  
+ ``` html  
  <ol> </ol> 
  ```
 
@@ -55,11 +55,11 @@ style= "color: blue, font-size: 40px;
 <ul> </ul>
 ```
 * Each bullets or numbered items is a list item 
-``` bash
+``` html
 <li> </li>
 ```
 # example:
-``` bash
+``` html
 <ol>
 <li> List item  </li>
 <li> list item </li>
@@ -71,27 +71,27 @@ style= "color: blue, font-size: 40px;
 * Images are diff. from others elements, they are self-closing.
 * Use src attribute which is short of source.
 * Images are not valid without an alt atrribute.Used to describe the image.
-``` bash
+``` html
 <img src ="image.jpg" alt="">
 ```
 # Id & Classes
 ### The Class selector:
-```bash
+```html
 <p class="intro">...</p>
 ```
 * In CSS , the class attributes is referenced by using a full stop.
-```bash
+```css
 .intro{
     font-size:20px;
     color:#2b5dad
 }
 ```
 ### The ID Selector:
-```bash
+```html
 < p id="intro">..</p>
 ```
 * An ID is represented by hashtag.
-``` bash
+``` css
 #intro{
     font-size:20px;
     color: 2b5dad;
@@ -105,11 +105,11 @@ style= "color: blue, font-size: 40px;
 
 ### Two diff. ways to write them
 * In HTML 
-```bash
+```html
 <!-- comment here -->
 ```
 * In CSS
-``` bash
+``` css
 /* comment here */
 ```
 # layouts In HTML:
@@ -117,7 +117,10 @@ style= "color: blue, font-size: 40px;
 
 # Self-closing tags :
 * Input tag:  It allows user to input their stuff into the Website.
-```bash
-<input >
+```html
+<input>
+```
+# CSS Animations :
+```css
 ```
 

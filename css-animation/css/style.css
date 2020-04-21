@@ -1,12 +1,86 @@
-@keyframes example {
+/* /* @keyframes body { 
      from {background-color: blue;}    
      to { background-color: red;}
 
-}
+/* } */
 
-body {
+
+/* @keyframes example {
+    0% {background-color: blue;}
+    25% {background-color: blanchedalmond;}
+    50% {background-color: cadetblue;}
+    75% {background-color: darkgoldenrod;}
+    100% {background-color: darkorchid;}
+} */
+
+ /* @keyframes example { 
+    0% {background-color: blue; left: 0px; top :0px}
+    25% {background-color: blanchedalmond; left: 200px; top :0px}
+    50% {background-color: cadetblue; left: 200px; top :200px}
+    75% {background-color: darkgoldenrod; left: 0px; top :200px}
+    100% {background-color: darkorchid; left: 0px; top :0px}
+} */
+/* @keyframes example {
+    0% {background-color: blue;}
+    25%{background-color: burlywood;}
+    50%{background-color: cornflowerblue;}
+    100% {background-color: darkgreen;}
+} */
+
+ /* .section {
     background-color: blue;
     animation-name: example;
     animation-duration: 4s;
+    position: relative;
+    animation-delay: 2s;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    height: 100px;
+    width: 100px;
 
+}  */ 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+@keyframes body-animation {
+    0% {background-color: palevioletred;}
+    25% {background-color: blanchedalmond;}
+    50% {background-color: cadetblue;}
+    75% {background-color: darkgoldenrod;}
+    100% {background-color: darkorchid;}
+}
+@keyframes example {
+    0% {background-color: darkkhaki; left: 0px; top:0px;}
+    25% {background-color: brown; left: 500px; top:0px;}
+    50% {background-color: gold; left: 500px; top:500px;}
+    100% {background-color: paleturquoise; left: 0px; top:0px;}
+}
+body {
+    background-color: palevioletred;
+    animation-name: body-animation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+.section {
+    width: 100vh;
+    border: 2px solid black;
+    color: black;
+    background-color: darkkhaki;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    position: relative;
+    -moz-animation-timing-function: ease-in-out;
+}
+
+.section h1 {
+    text-align: center;
+    width: auto;
+    
+    
+}
+

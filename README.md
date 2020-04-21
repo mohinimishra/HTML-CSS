@@ -120,7 +120,152 @@
 ```html
 <input>
 ```
-# CSS Animations :
-```css
+# CSS Background-Properties:
+* background-color
+* background-image
+* background-repeat
+* background-attachment
+* background-position
+
+## Background-color:
+
+### Opacity / Transparency :
+* The opacity property specifies the opacity/transparency of an element.
+* It can take a value from 0.0 - 1.0. The lower value, the more transparent.
+``` css
+div {
+    opacity: 0.3;
+    }
 ```
+# Transparency using RGBA:
+* If you do not want to apply opacity to child elements, like in our example above, use RGBA color values.
+*It sets the opacity for the background color and not the text.
+``` css
+   div {
+        background: rgba(0,0,0,0);
+   }
+```
+* An RGBA color value is specified with: rgba(red, green, blue, alpha). The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (fully opaque).
+
+### Background-image:
+* The background-image property specifies an image to use as the background of an element.
+* By default, the image is repeated so it covers the entire element.
+``` body {
+    background-image: url("paper.gif");
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# CSS Animations :
+* An animation lets an element gradually change from one style to another.
+* You can change as many CSS properties you want, as many times you want.
+* Keyframes hold what styles the element will have at certain times.
+## The @keyframe Rule :
+* When you specify CSS styles inside the @keyframes rule, the animation will gradually change from the current style to the new style at certain times.
+
+```css
+/* The Animation code */
+
+@keyframe example {
+    from {background-color: red;}
+    to   {background-color: yellow;}
+}
+
+/* The element to apply the animation to */
+
+div{
+    width:100px;
+    height:100px;
+    animation-duration:4s;
+    animation name:example;
+    background-color:red;
+}
+```
+* The animation-duration property defines how long time an animation should take to complete. If the animation-duration property is not specified, no animation will occur, because the default value is 0s (0 seconds). 
+
+* sIt is also possible to use percent. By using percent, you can add as many style changes as you like.
+
+
+* The given example  will change both the background-color and the position of the div element when the animation is 25% complete, 50% complete, and again when the animation is 100% complete:
+
+# Animation Delay Properties:
+*The animation-delay property specifies a delay for the start of an animation.
+```css
+animation-delay:2s;
+```
+
+# Animation-Iteration-Count:
+* The animation-iteration-count property specifies the number of times an animation should run.
+```css
+animatin-iteration-count:3;
+```
+* Uses the value "infinite" to make the animation continue for ever
+``` css
+animation-iteration-count: infinite;
+```
+# Animation-Direction Properties:
+* The animation-direction property specifies whether an animation should be played forwards, backwards or in alternate cycles.
+``` css
+animation-direction: normal; 
+animation-direction: reverse; 
+animation-direction: alternate; 
+animation-direction: alternate-reverse;
+```
+* Normal - The animation is played as normla(forward). This is by default.
+* Reverse - The animation is played as reverse direction (backward).
+* Alternate - The animation is played forward first, then backward.
+* Alternate-reverse - The animation is played backword direction first then forward. 
+# Specify the Speed Curve of the Animation:
+* The animation-timing-function property specifies the speed curve of the animation.
+``` css
+animation-timing-function: ease;
+```
+* The animation-timing-function property can have the following values:
+
+* ease - Specifies an animation with a slow start, then fast, then end slowly. This is by default.
+* linear - Specifies an animation with the same speed from start to end.
+* ease-in - Specifies an animaion with a slow start. 
+* ease-out -  Specifies an animaion with a slow end.
+* ease-in-out-  Specifies an animaion with a slow start and end.
+* cubic-bezier(n,n,n,n) - Lets you define your own values in a cubic-bezier function.  
+
+
+
+
+
+
 

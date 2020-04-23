@@ -1,0 +1,18 @@
+
+/* The border-collapse property sets whether the table borders should be collapsed into a single borde */
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th {
+    height: 50px;
+    text-align: left;
+    padding: 15px;
+}
+th, td {
+    border-bottom: 1px solid gray;
+}
+td {
+    padding: 15px;
+}

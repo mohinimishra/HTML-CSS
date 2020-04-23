@@ -1,0 +1,7 @@
+.border {
+    border: 2px solid black;
+}
+
+.border h1 {
+ vertical-align: top;
+}

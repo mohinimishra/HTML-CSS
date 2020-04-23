@@ -150,10 +150,55 @@ div {
 ### Background-image:
 * The background-image property specifies an image to use as the background of an element.
 * By default, the image is repeated so it covers the entire element.
-``` body {
+```css
+ body {
     background-image: url("paper.gif");
 }
 ```
+# Background-Repeat:
+* If the image is repeated only horizontally (background-repeat: repeat-x;), the background will look better.
+```css
+body {
+  background-image: url("gradient_bg.png");
+  background-repeat: repeat-x;
+}
+``` 
+* To repeat an image vertically, set background-repeat: repeat-y.
+* Showing the background image only once is also specified by the background-repeat property.
+``` css
+body {
+  background-image: url("img_tree.png");
+  background-repeat: no-repeat;
+}
+```
+# CSS Backgroubd-Positions:
+* The background-position property is used to specify the position of the background image.
+``` css
+body{
+ background-position: right top;
+}
+ ```
+ # CSS background-attachment:
+ * The background-attachment property specifies whether the background image should scroll or be fixed (will not scroll with the rest of the page).
+ ```css
+ body{
+     background-attachment: fixed;
+ }
+```
+* Specify that the background image should scroll with the rest of the page.
+``` css
+body{
+    background-attachment: scroll;
+}
+```
+# CSS Border Properties:
+* The CSS border properties allow you to specify the style, width, and color of an element's border.
+
+# CSS Border Style:
+* The border-style property specifies what kind of border to display.
+``` css
+border-style: dotted;
+``` 
 
 
 
@@ -262,7 +307,13 @@ animation-timing-function: ease;
 * ease-out -  Specifies an animaion with a slow end.
 * ease-in-out-  Specifies an animaion with a slow start and end.
 * cubic-bezier(n,n,n,n) - Lets you define your own values in a cubic-bezier function.  
-
+# CSS Icons:
+* The simplest way to add an icon to your HTML page, is with an icon library, such as Font Awesome.
+* Add the name of the specified icon class to any inline HTML element (like <i> or <span>)
+# Font Awesome Icons:
+```css
+<script src="https://kit.fontawesome.com/yourcode.js"></script>
+```
 
 
 
